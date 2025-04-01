@@ -1,0 +1,34 @@
+{
+  "name": "office365-web-app",
+  "version": "1.0.0",
+  "description": "A Microsoft Office 365 web app powered with Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.miyukivigil.office365web",
+    "productName": "Office365 Web App",
+    "linux": {
+        "target": ["rpm"],
+        "category": "Utility",
+        "maintainer": "MiyukiVigil <ivanngu08@gmail.com>",
+        "description": "A Microsoft Office 365 web app powered with Electron",
+        "icon": "icon.png"
+    },
+    "files": [
+      "**/*",
+      "!node_modules/**/*"
+    ]
+  },
+  "author": {
+    "name": "MiyukiVigil",
+    "email": "ivanngu08@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "23.1.3",
+    "electron-builder": "^26.0.12"
+  }
+}

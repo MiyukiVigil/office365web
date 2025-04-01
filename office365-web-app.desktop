@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Office365 Web App
+Comment=Access Microsoft Office 365 Online
+Exec=/opt/Office365WebApp/office365-web-app
+Icon=/usr/share/icons/hicolor/1920x1920/apps/office365-web-app.png
+Terminal=false
+Type=Application
+Categories=Network;Office;
