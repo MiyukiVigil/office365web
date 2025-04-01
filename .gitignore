@@ -1,0 +1,26 @@
+# Ignore node_modules (if using npm or yarn)
+node_modules/
+
+# Ignore build files
+dist/
+rpm/
+tmp/
+build/
+
+# Ignore Electron packaging files
+.cache/
+.idea/
+.vscode/
+
+# Ignore IDE/editor files
+*.log
+.DS_Store
+*.swp
+
+# Ignore any generated files
+*.tar.gz
+*.rpm
+
+# Ignore any other system-specific files
+.*.swp
+*~
