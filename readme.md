@@ -42,5 +42,3 @@ cd Office365WebApp
 This project is not affiliated with or endorsed by Microsoft. It simply provides a web wrapper for Microsoft Office 365 services.
 
 Since this project was built for personal use, support and updates will be minimal. If you encounter any issues, you are encouraged to fork the repository and make your own modifications.
-
-Feel free to copy the sections one by one! Let me know if you need more adjustments.
